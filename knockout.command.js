@@ -82,7 +82,7 @@
         return self;
     };
 
-    ko.bindingHandlers.command = {
+    ko.bindingHandlers.kolitecommand = {
         init: function (element, valueAccessor, allBindingsAccessor, viewModel, bindingContext) {
             var
                 value = valueAccessor(),
@@ -98,7 +98,7 @@
                             continue;
                         };
 
-                        ko.bindingHandlers[command].init(
+                        ko.bindingHandlers[kolitecommand].init(
                             element,
                             wrapAccessor(commands[command].execute),
                             allBindingsAccessor,
