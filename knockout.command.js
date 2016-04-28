@@ -98,7 +98,7 @@
                             continue;
                         };
 
-                        ko.bindingHandlers[kolitecommand].init(
+                        ko.bindingHandlers[command].init(
                             element,
                             wrapAccessor(commands[command].execute),
                             allBindingsAccessor,
